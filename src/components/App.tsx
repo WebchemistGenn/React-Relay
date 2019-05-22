@@ -1,5 +1,5 @@
 import React from "react";
-import LinkListPage from "./LinkPage";
+import LinkListPage from "./LinkListPage";
 
 const App: React.FC = () => {
   return <LinkListPage />;

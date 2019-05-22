@@ -11,10 +11,8 @@ const LinkList = ({ viewer }: any) => {
     </React.Fragment>
   );
 };
-
-export default createFragmentContainer(
-  LinkList,
-  graphql`
+export default createFragmentContainer(LinkList, {
+  viewer: graphql`
     fragment LinkList_viewer on Viewer {
       allLinks(last: 100, orderBy: createdAt_DESC)
         @connection(key: "LinkList_allLinks", filters: []) {
@@ -26,4 +24,4 @@ export default createFragmentContainer(
       }
     }
   `
-);
+});

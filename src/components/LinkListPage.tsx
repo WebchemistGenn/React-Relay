@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, QueryRenderer } from "react-relay";
+import { QueryRenderer, graphql } from "react-relay";
 import environment from "../Environment";
 import LinkList from "./LinkList";
 
