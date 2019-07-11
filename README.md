@@ -56,3 +56,7 @@ graphcool deploy
 ```
 graphcool playground
 ```
+
+
+---
+현재 Graphcool을 이용한 Relay endpoint를 이용하고 있는데,  Prisma를 이용하거나 별도 다른 환경으로 구축한 후에 연동이 가능한지 테스트해본다.
